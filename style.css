@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 100vh;
+}
+
+.header {
+  text-align: center;
+  padding: 15px;
+}
+
+.add-item {
+  margin-left: 400px;
+  padding: 20px;
+}
+#itemName {
+  width: 200px;
+  height: 20px;
+  padding: 3px;
+  margin: 10px;
+}
+#itemDate {
+  width: 120px;
+  height: 20px;
+  padding: 3px;
+  margin: 10px;
+}
+#priority {
+  width: 100px;
+  height: 30px;
+  margin: 10px;
+}
+.btn {
+  width: 80px;
+  height: 30px;
+  margin: auto;
+  font-size: medium;
+}
+.section {
+  margin-left: 130px;
+}
+#todaysTasks li {
+  max-width: 1100px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(250, 119, 119);
+  color: white;
+  padding: 6px;
+  margin-top: 20px;
+  position: relative;
+}
+.index {
+  position: absolute;
+  left: 10px;
+}

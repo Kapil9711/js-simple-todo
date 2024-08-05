@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List Application</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container light">
+      <div class="header">
+        <h1>Todo List</h1>
+      </div>
+      <div class="add-item">
+        <input
+          class="titleInput"
+          type="text"
+          id="itemName"
+          placeholder="Item Name"
+        />
+        <input
+          class="dateInput"
+          type="date"
+          id="itemDate"
+          placeholder="deadline"
+          onfocus="(this.type='date')"
+        />
+        <select class="priorityInput" id="priority">
+          <option value="">Priority</option>
+          <option value="high">High</option>
+          <option value="medium">Medium</option>
+          <option value="low">Low</option>
+        </select>
+        <button class="btn">Add Item</button>
+      </div>
+      <div class="section today-tasks">
+        <h2>TodoList</h2>
+        <ul id="todaysTasks"></ul>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
